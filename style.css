@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.quo-gen {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background: rgba(209, 200, 233, 0.801);
+}
+.body-gen{
+    width: 50%;
+    min-height: 300px;
+    background: rgb(86, 114, 112);
+    color: blanchedalmond;
+    border: 5px solid white;
+}
+.h1 {
+    color: rgb(85, 7, 53);
+  }
+#output{
+    font-size: 30px;
+    border-bottom: 3px solid rgb(128, 0, 122);
+    color: rgb(201, 169, 169);
+}
+#btn{
+    background-color: #043305; /* Green */
+  border: none;
+  color: rgb(16, 112, 56);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+}
