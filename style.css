@@ -9,7 +9,7 @@
     display: grid;
     place-items: center;
     text-align: center;
-    background: rgba(209, 200, 233, 0.801);
+    background-image: linear-gradient(to right bottom, rgb(235, 219, 236), #ffedbca8);
 }
 .body-gen{
     width: 50%;
@@ -19,21 +19,34 @@
     border: 5px solid white;
 }
 .h1 {
-    color: rgb(85, 7, 53);
+    color: rgb(131, 83, 111);
   }
 #output{
     font-size: 30px;
     border-bottom: 3px solid rgb(128, 0, 122);
-    color: rgb(201, 169, 169);
+    color: rgb(255, 254, 254);
 }
 #btn{
     background-color: #043305; /* Green */
   border: none;
-  color: rgb(16, 112, 56);
+  color: rgb(255, 255, 255);
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   margin: 10px;
+}
+
+
+.next
+{
+    font-size:18px;
+    border-radius: 5px;
+    cursor:pointer;
+    padding: 10px;
+    margin-top: 5px;
+    font-weight: bold;
+    color: white;
+    background-image: linear-gradient(to right bottom, rgb(116, 30, 97), #ffedbca8);
 }
